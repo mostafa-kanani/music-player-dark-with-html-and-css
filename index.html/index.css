@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding :0; 
+    background: #131419;
+    display: flex;
+    align-items:center; 
+    justify-content: center;
+    min-height: 100vh;
+}
+.login-form{
+    width: 400px;
+    height: 500px;
+    background: #131419;
+    box-shadow: -5px -5px 10px rgba(255,255,255,0.05), 
+    5px 5px 15px rgba(0,0,0,0.5);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600; 
+    border-radius: 10px; 
+}
+.title{
+    text-align: center;
+    color: #868686;
+    text-transform:uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-top: 1rem;
+}
+.username,.password{
+    text-align: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+input[type=text] {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    width: 280px;
+    height: 50px;
+    border-radius: 10px;
+    background: #131419;
+    box-shadow:-5px -5px 10px rgba(255,255,255,0.05), 
+    5px 5px 15px rgba(0,0,0,0.5); 
+    outline: none;
+    border: none;
+    color: #868686;
+    margin: 60px;
+}
+input[type=password]{
+    outline: none;
+    border: none;
+    background: #131419;
+    box-shadow:-5px -5px 10px rgba(255,255,255,0.05), 
+    5px 5px 15px rgba(0,0,0,0.5);
+    width: 280px;
+    height: 50px;
+    text-align: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    border-radius: 10px; 
+    color: #868686;
+}
+.btn {
+    margin-top: 40px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+button{
+    text-transform: capitalize;
+    outline: none;
+    border: none;
+    background: #131419;
+    box-shadow:-5px -5px 10px rgba(255,255,255,0.05), 
+    5px 5px 15px rgba(0,0,0,0.5);
+    color: cornflowerblue;
+    width: 240px;
+    height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.4s ease; 
+}
+
+button:focus{
+   box-shadow:  inset -2px -2px 6px rgba(255,255,255,0.01), 
+   inset 2px 2px 6px rgba(0,0,0,0.8);
+   transition: all 0.4s ease; 
+}
+
+.link{
+    text-align: center;
+    margin-top: 20px;
+}
+
+a{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #868686;
+    text-transform: capitalize;
+}
+
+span{
+    color: aqua;
+}
